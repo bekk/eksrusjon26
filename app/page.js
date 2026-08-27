@@ -69,6 +69,7 @@ export default function Home() {
 
                       <div className="boks">
                         <h2>TIKI BAR</h2>
+                        <span className="liten">{data.barNotis}</span>
                         <table border="1" width="100%">
                           <tbody>
                             {data.drinker.map((d, i) => (
@@ -77,7 +78,7 @@ export default function Home() {
                           </tbody>
                         </table>
                         <br />
-                        <span className="liten gul">alle drinker serveres med paraply, det er oblig</span>
+                        <span className="liten gul">alle drinker serveres med paraply</span>
                       </div>
 
                       <br />

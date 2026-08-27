@@ -4,7 +4,7 @@
   "alarm": "KUN FOR INVITERTE!!!",
   "tid": "kl 18",
   "sted": "skuret",
-  "dresscode": "Dresscode: tropisk. Overdriv. Det er IKKE lov å komme i vanlige klær, det er oblig!!!",
+  "dresscode": "Dresscode: tropisk. Overdriv. Det er IKKE lov å komme i vanlige klær!!!",
   "antallPaameldte": 1247,
   "besokende": "000147",
   "vipTekst": "ALLE GJESTER FÅR ET VIP KORT I POSTHYLLA SI. DU MÅ HA MED KORTET FOR Å KOMME INN!!! KORTET GIR DEG <b>INGEN</b> FAKTISKE PRIVILEGIER. Hvis du mister kortet så er det bare å si fra til noen så fikser vi det. Vi har laget noen ekstra kort i tilfelle men ikke så mange så",
@@ -25,6 +25,14 @@
     {
       "navn": "Saltbekken",
       "innhold": "tequila, grapefrukt, salt"
+    },
+    {
+      "navn": "Aperol Spritz",
+      "innhold": "aperol, prosecco og litt soda"
+    },
+    {
+      "navn": "Aperol Spritz alkoholfri",
+      "innhold": "ser helt lik ut, ingen merker forskjell"
     },
     {
       "navn": "Mai Tai",
@@ -55,6 +63,10 @@
       "innhold": "hemmelig oppskrift ikke spør"
     },
     {
+      "navn": "Brus",
+      "innhold": "rød, blå eller gul. smaker helt likt uansett"
+    },
+    {
       "navn": "Øl og vin",
       "innhold": "ja"
     }
@@ -65,5 +77,6 @@
     "bygging": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA0MDAgNjAiPgo8ZGVmcz4KPHBhdHRlcm4gaWQ9ImgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+CjxyZWN0IHdpZHRoPSIxNCIgaGVpZ2h0PSIyOCIgZmlsbD0iIzAwMDAwMCIvPgo8cmVjdCB4PSIxNCIgd2lkdGg9IjE0IiBoZWlnaHQ9IjI4IiBmaWxsPSIjZmZjYzAwIi8+CjwvcGF0dGVybj4KPC9kZWZzPgo8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjYwIiBmaWxsPSJ1cmwoI2gpIi8+CjxyZWN0IHg9IjAiIHk9IjE2IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI4IiBmaWxsPSIjZmZmZjAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMiIvPgo8dGV4dCB4PSIyMDAiIHk9IjM2IiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMDAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+VU5ERVIgQ09OU1RSVUNUSU9OPC90ZXh0Pgo8L3N2Zz4K"
   },
   "bandHint": "PS: det blir sikkert litt levende musikk utover kvelden, noen her i huset har visst band. Ikke spør oss om hva de heter for det vet vi ikke.",
-  "volleyballTekst": "Det er IKKE lov å spille volleyball inne!!! Vi knuste en lampe i fjor og det ble sykt dyrt. Hvis du må spille volleyball så får du komme på Bekk volleyballtrening i stedet, det er skikkelig digg og alle kan bli med. Det er ikke oblig men vi anbefaler det."
+  "volleyballTekst": "Det er IKKE lov å spille volleyball inne!!! Vi knuste en lampe i fjor og det ble sykt dyrt. Hvis du må spille volleyball så får du komme på Bekk volleyballtrening i stedet, det er skikkelig digg og alle kan bli med. Du må ikke, men du burde.",
+  "barNotis": "(obs kan være utsolgt for det meste)"
 }
