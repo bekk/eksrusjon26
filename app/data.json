@@ -35,39 +35,19 @@
       "innhold": "ser helt lik ut, ingen merker forskjell"
     },
     {
-      "navn": "Mai Tai",
-      "innhold": "klassiker"
-    },
-    {
       "navn": "Alkoholfri Laguna",
       "innhold": "kokos, ananas, mynte (alkoholfri)"
-    },
-    {
-      "navn": "Virgin Bekk Colada",
-      "innhold": "kokos og ananas, uten alk"
     },
     {
       "navn": "Sunset Zero",
       "innhold": "pasjonsfrukt, lime, soda. 0%"
     },
     {
-      "navn": "Ingefær og Lime",
-      "innhold": "alkoholfri og skikkelig digg"
-    },
-    {
-      "navn": "Bekk Iskaffe",
-      "innhold": "kaffe og iskrem, ingen alkohol"
-    },
-    {
-      "navn": "Sunset Punch",
-      "innhold": "hemmelig oppskrift ikke spør"
-    },
-    {
       "navn": "Brus",
       "innhold": "rød, blå eller gul. smaker helt likt uansett"
     },
     {
-      "navn": "Øl og vin",
+      "navn": "Øl/cider",
       "innhold": "ja"
     }
   ],

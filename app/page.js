@@ -36,7 +36,7 @@ export default function Home() {
                       <b>MENY</b>
                       <br /><br />
                       {data.meny.map((m, i) => (
-                        <span key={i}><a href="#">{m}</a><br /></span>
+                        <span key={i}><a href={m == "bar" ? "/bar" : m == "kontakt" ? "/kontakt" : "#"}>{m}</a><br /></span>
                       ))}
                       <br /><br /><br />
                       <center>
