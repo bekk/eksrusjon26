@@ -49,16 +49,10 @@ export default function Home() {
                     <td vAlign="top">
                       <div className={"boks " + "stor"}>
                         <h3>NÅR OG HVOR</h3>
-                        <h1>Fredag</h1>
-                        <p>
-                          Dato: {data.dato} &nbsp;&nbsp; Tid: {data.tid} &nbsp;&nbsp; Sted:{" "}
-                          {data.sted}
-                        </p>
+                        <h1>Hver dag</h1>
+                        <p>Tid: {data.tid} &nbsp;&nbsp; Sted: {data.sted} &nbsp;&nbsp; Påmeldte: {data.antallPaameldte}</p>
                         <p>{data.dresscode}</p>
-                        <p>
-                          Pris: {data.pris + ".00"} kr &nbsp;&nbsp; Påmeldte:{" "}
-                          {data.antallPaameldte}
-                        </p>
+                        <p className="liten">{data.bandHint}</p>
                       </div>
 
                       <br />
@@ -83,17 +77,14 @@ export default function Home() {
                           </tbody>
                         </table>
                         <br />
-                        <span className="liten gul">alle drinker serveres med paraply</span>
+                        <span className="liten gul">alle drinker serveres med paraply, det er oblig</span>
                       </div>
 
                       <br />
 
                       <div className="boks">
-                        <h4>ROMNAVN</h4>
-                        <p>Alle rom har fått nytt navn for kvelden!!!</p>
-                        {data.rom.map((r, i) => (
-                          <span key={i}>{r.gammelt} = {r.nytt}<br /></span>
-                        ))}
+                        <h4>VOLLEYBALL</h4>
+                        <p>{data.volleyballTekst}</p>
                       </div>
 
                       <br />

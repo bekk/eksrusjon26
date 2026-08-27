@@ -16,7 +16,7 @@ npm run dev
 ```
 app/page.js       hele siden
 app/globals.css   styling
-app/data.json     innhold (drinker, romnavn, meny, bilder)
+app/data.json     innhold (drinker, meny, bilder)
 ```
 
 Alt innhold ligger i `data.json`. Endrer du der, endrer siden seg.
@@ -34,7 +34,7 @@ Noen ting å se etter:
 - Kan du bruke skjemaet med kun tastatur?
 - Er teksten lesbar? All teksten?
 - Hva skjer når du trykker "Send"?
-- Er prisen formatert riktig for norske brukere?
+- Er tallene formatert riktig for norske brukere?
 - Hva skjer med siden hvis `data.json` er tom?
 
 ## Deploy

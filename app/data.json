@@ -2,19 +2,18 @@
   "tittel": "BEKK BEACH CLUB",
   "banner": "*** VELKOMMEN TIL TIDENES FEST *** VELKOMMEN TIL TIDENES FEST ***",
   "alarm": "KUN FOR INVITERTE!!!",
-  "dato": "12. september",
-  "tid": "18",
-  "sted": "kontoret",
-  "dresscode": "Dresscode: tropisk. Overdriv. Det er IKKE lov å komme i vanlige klær!!!",
-  "pris": 349,
+  "tid": "kl 18",
+  "sted": "skuret",
+  "dresscode": "Dresscode: tropisk. Overdriv. Det er IKKE lov å komme i vanlige klær, det er oblig!!!",
   "antallPaameldte": 1247,
   "besokende": "000147",
-  "vipTekst": "ALLE GJESTER FÅR ET VIP KORT I POSTHYLLA SI. DU MÅ HA MED KORTET FOR Å KOMME INN!!! KORTET GIR DEG <b>INGEN</b> FAKTISKE PRIVILEGIER. Hvis du mister kortet så er det bare å si fra til noen så ordner vi det. Vi har laget noen ekstra kort i tilfelle men ikke så mange så",
-  "kransTekst": "Du får en blomsterkrans i døra. Ta på deg kransen. Det er obligatorisk.",
+  "vipTekst": "ALLE GJESTER FÅR ET VIP KORT I POSTHYLLA SI. DU MÅ HA MED KORTET FOR Å KOMME INN!!! KORTET GIR DEG <b>INGEN</b> FAKTISKE PRIVILEGIER. Hvis du mister kortet så er det bare å si fra til noen så fikser vi det. Vi har laget noen ekstra kort i tilfelle men ikke så mange så",
+  "kransTekst": "Du får en blomsterkrans i døra. Ta på deg kransen. Det er oblig.",
   "meny": [
     "klikk her",
     "klikk her for info",
     "bar",
+    "volleyball",
     "meld deg på her",
     "kontakt"
   ],
@@ -33,7 +32,23 @@
     },
     {
       "navn": "Alkoholfri Laguna",
-      "innhold": "kokos, ananas, mynte"
+      "innhold": "kokos, ananas, mynte (alkoholfri)"
+    },
+    {
+      "navn": "Virgin Bekk Colada",
+      "innhold": "kokos og ananas, uten alk"
+    },
+    {
+      "navn": "Sunset Zero",
+      "innhold": "pasjonsfrukt, lime, soda. 0%"
+    },
+    {
+      "navn": "Ingefær og Lime",
+      "innhold": "alkoholfri og skikkelig digg"
+    },
+    {
+      "navn": "Bekk Iskaffe",
+      "innhold": "kaffe og iskrem, ingen alkohol"
     },
     {
       "navn": "Sunset Punch",
@@ -44,43 +59,11 @@
       "innhold": "ja"
     }
   ],
-  "rom": [
-    {
-      "gammelt": "Inngang",
-      "nytt": "Arrivals"
-    },
-    {
-      "gammelt": "Stua",
-      "nytt": "Bekk Bay"
-    },
-    {
-      "gammelt": "Baren",
-      "nytt": "Tiki Hut"
-    },
-    {
-      "gammelt": "Møterom 3",
-      "nytt": "Sunset Lounge"
-    },
-    {
-      "gammelt": "Møterom 4",
-      "nytt": "The Sandbox (dansing)"
-    },
-    {
-      "gammelt": "Kantina",
-      "nytt": "Beach Grill"
-    },
-    {
-      "gammelt": "Balkongen",
-      "nytt": "Pier 1"
-    },
-    {
-      "gammelt": "Do",
-      "nytt": "Skyllebekken"
-    }
-  ],
   "bilder": {
     "palme": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMTUwIDIwMCI+CjxyZWN0IHdpZHRoPSIxNTAiIGhlaWdodD0iMjAwIiBmaWxsPSIjMDBjY2ZmIi8+CjxjaXJjbGUgY3g9IjEyMCIgY3k9IjM0IiByPSIyMCIgZmlsbD0iI2ZmZmYwMCIvPgo8cmVjdCB5PSIxNjAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNDAiIGZpbGw9IiNmZmRkODgiLz4KPHBhdGggZD0iTTcyIDE2NSBDNjggMTIwIDY2IDkwIDcwIDU2IEw4MiA1NiBDODYgOTAgODQgMTIwIDgwIDE2NSBaIiBmaWxsPSIjOGI1YTJiIi8+CjxwYXRoIGQ9Ik03MCA1OCBDNDAgNDAgMjAgNDQgOCA2MCBDMjYgNTIgNDggNTIgNzIgNjYgWiIgZmlsbD0iIzAwOTkwMCIvPgo8cGF0aCBkPSJNODIgNTggQzExMiA0MCAxMzIgNDQgMTQ0IDYwIEMxMjYgNTIgMTA0IDUyIDgwIDY2IFoiIGZpbGw9IiMwMDk5MDAiLz4KPHBhdGggZD0iTTcwIDU2IEM0NiAyNiAyMiAyMCA2IDI2IEMzMCAzMCA1MiA0NCA3MiA2NCBaIiBmaWxsPSIjMDBiYjAwIi8+CjxwYXRoIGQ9Ik04MiA1NiBDMTA2IDI2IDEzMCAyMCAxNDYgMjYgQzEyMiAzMCAxMDAgNDQgODAgNjQgWiIgZmlsbD0iIzAwYmIwMCIvPgo8cGF0aCBkPSJNNzYgNTQgQzY2IDI0IDUwIDggMzAgNCBDNTIgMTggNjYgMzggNzQgNjQgWiIgZmlsbD0iIzAwNzcwMCIvPgo8cGF0aCBkPSJNNzggNTQgQzg4IDI0IDEwNCA4IDEyNCA0IEMxMDIgMTggODggMzggODAgNjQgWiIgZmlsbD0iIzAwNzcwMCIvPgo8Y2lyY2xlIGN4PSI3NiIgY3k9IjU4IiByPSI3IiBmaWxsPSIjNjYzMzAwIi8+CjxjaXJjbGUgY3g9IjY2IiBjeT0iNjIiIHI9IjYiIGZpbGw9IiM4YjQ1MTMiLz4KPGNpcmNsZSBjeD0iODYiIGN5PSI2MiIgcj0iNiIgZmlsbD0iIzhiNDUxMyIvPgo8L3N2Zz4K",
     "krans": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiB2aWV3Qm94PSIwIDAgMTgwIDE4MCI+CjxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiBmaWxsPSIjZmZjYzAwIi8+CjxjaXJjbGUgY3g9IjkwIiBjeT0iOTAiIHI9IjU4IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDg4MDAiIHN0cm9rZS13aWR0aD0iNyIvPgo8ZyBpZD0iZiI+CjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjE2IiBmaWxsPSIjZmYwMDY2Ii8+CjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjYiIGZpbGw9IiNmZmZmMDAiLz4KPC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg0NSA5MCA5MCkiPjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjE2IiBmaWxsPSIjZmY5OTAwIi8+PGNpcmNsZSBjeD0iOTAiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2ZmZmZmZiIvPjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoOTAgOTAgOTApIj48Y2lyY2xlIGN4PSI5MCIgY3k9IjMyIiByPSIxNiIgZmlsbD0iI2ZmZmZmZiIvPjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjYiIGZpbGw9IiNmZjAwNjYiLz48L2c+CjxnIHRyYW5zZm9ybT0icm90YXRlKDEzNSA5MCA5MCkiPjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjE2IiBmaWxsPSIjZmYwMDY2Ii8+PGNpcmNsZSBjeD0iOTAiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2ZmZmYwMCIvPjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMTgwIDkwIDkwKSI+PGNpcmNsZSBjeD0iOTAiIGN5PSIzMiIgcj0iMTYiIGZpbGw9IiNmZjk5MDAiLz48Y2lyY2xlIGN4PSI5MCIgY3k9IjMyIiByPSI2IiBmaWxsPSIjZmZmZmZmIi8+PC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgyMjUgOTAgOTApIj48Y2lyY2xlIGN4PSI5MCIgY3k9IjMyIiByPSIxNiIgZmlsbD0iI2ZmZmZmZiIvPjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjYiIGZpbGw9IiNmZjAwNjYiLz48L2c+CjxnIHRyYW5zZm9ybT0icm90YXRlKDI3MCA5MCA5MCkiPjxjaXJjbGUgY3g9IjkwIiBjeT0iMzIiIHI9IjE2IiBmaWxsPSIjZmYwMDY2Ii8+PGNpcmNsZSBjeD0iOTAiIGN5PSIzMiIgcj0iNiIgZmlsbD0iI2ZmZmYwMCIvPjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMzE1IDkwIDkwKSI+PGNpcmNsZSBjeD0iOTAiIGN5PSIzMiIgcj0iMTYiIGZpbGw9IiNmZjk5MDAiLz48Y2lyY2xlIGN4PSI5MCIgY3k9IjMyIiByPSI2IiBmaWxsPSIjZmZmZmZmIi8+PC9nPgo8L3N2Zz4K",
     "bygging": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA0MDAgNjAiPgo8ZGVmcz4KPHBhdHRlcm4gaWQ9ImgiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgcGF0dGVyblRyYW5zZm9ybT0icm90YXRlKDQ1KSI+CjxyZWN0IHdpZHRoPSIxNCIgaGVpZ2h0PSIyOCIgZmlsbD0iIzAwMDAwMCIvPgo8cmVjdCB4PSIxNCIgd2lkdGg9IjE0IiBoZWlnaHQ9IjI4IiBmaWxsPSIjZmZjYzAwIi8+CjwvcGF0dGVybj4KPC9kZWZzPgo8cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjYwIiBmaWxsPSJ1cmwoI2gpIi8+CjxyZWN0IHg9IjAiIHk9IjE2IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjI4IiBmaWxsPSIjZmZmZjAwIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMiIvPgo8dGV4dCB4PSIyMDAiIHk9IjM2IiBmb250LWZhbWlseT0iQXJpYWwgQmxhY2ssIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMDAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+VU5ERVIgQ09OU1RSVUNUSU9OPC90ZXh0Pgo8L3N2Zz4K"
-  }
+  },
+  "bandHint": "PS: det blir sikkert litt levende musikk utover kvelden, noen her i huset har visst band. Ikke spør oss om hva de heter for det vet vi ikke.",
+  "volleyballTekst": "Det er IKKE lov å spille volleyball inne!!! Vi knuste en lampe i fjor og det ble sykt dyrt. Hvis du må spille volleyball så får du komme på Bekk volleyballtrening i stedet, det er skikkelig digg og alle kan bli med. Det er ikke oblig men vi anbefaler det."
 }
