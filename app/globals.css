@@ -1,0 +1,62 @@
+body {
+  background-color: #1e00ff;
+  font-family: "Comic Sans MS", cursive;
+  color: #ff2200;
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: #0000ee;
+}
+
+.blink {
+  animation: blink 0.6s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.boks {
+  width: 900px;
+  background-color: #ffcc00;
+  padding: 3px;
+  color: #888800;
+}
+
+.knapp {
+  background: #00ff00;
+  border: 4px outset #999999;
+  color: #cccc00;
+  padding: 2px;
+  cursor: pointer;
+  width: 90px;
+  text-align: center;
+}
+
+.tittel {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff00ff;
+}
+
+.liten {
+  font-size: 11px;
+}
+
+.gul {
+  color: #ffff00;
+}
+
+input {
+  border: 2px inset #cccccc;
+  background: #ffffcc;
+}
