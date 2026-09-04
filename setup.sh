@@ -169,9 +169,9 @@ else
   fail "no repo"
 fi
 
-step "npm ci"
+step "npm install"
 if [[ -f "$DEMO_DIR/package.json" ]]; then
-  ( cd "$DEMO_DIR" && npm ci 2>&1 | tail -3 )
+  ( cd "$DEMO_DIR" && npm install 2>&1 | tail -3 )
   [[ -d "$DEMO_DIR/node_modules" ]] && ok || fail "install failed"
 else
   fail "no package.json on this branch"
@@ -212,7 +212,7 @@ Still to do by hand on this Mac:
   1. Open a NEW terminal, run: claude
      Clear the theme picker and the trust-folder prompt.
   2. cd ~/demo && npm run dev
-  3. Open http://localhost:5173 on the second display
+  3. Open http://localhost:3000 on the second display
   4. Reboot and confirm everything comes back
 
 EOF
